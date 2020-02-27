@@ -2,7 +2,7 @@ package coding;
 
 import java.util.Scanner;
 
-public class X005_Palindrome {
+public class X005_1_Palindrome_UsingMathLogic {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
