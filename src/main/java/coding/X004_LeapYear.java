@@ -24,17 +24,9 @@ public class X004_LeapYear {
 		
 		int num = Integer.parseInt(str);
 		
-		if(num % 4 == 0)
-		{
-			if((num % 400 == 0) && (num % 100 == 0)){
-				System.out.println("Year in a leap year");
-			}
-			else
-				System.out.println("Year in NOT a leap year");
-		}
-		else {
-			System.out.println("Year in NOT a leap year");
-		}
+		if((num % 4 == 0 && num % 100 != 0) || num% 400 == 0)
+			System.out.println("Year is a leap year");
+		else
+			System.out.println("Year is NOT a leap year");
 	}
-
 }
