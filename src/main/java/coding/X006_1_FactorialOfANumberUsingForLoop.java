@@ -2,7 +2,7 @@ package coding;
 
 import java.util.Scanner;
 
-public class X006_FactorialOfANumberUsingForLoop {
+public class X006_1_FactorialOfANumberUsingForLoop {
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
