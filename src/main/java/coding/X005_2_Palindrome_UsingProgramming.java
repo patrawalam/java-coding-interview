@@ -26,8 +26,8 @@ public class X005_2_Palindrome_UsingProgramming {
 		String num1 = scn.next();
 		String rev = "";
 		
-		for (int i = 0;i<num1.length();i++) {
-			rev = rev + num1.charAt(0);
+		for (int i = num1.length() - 1;i>=0;i--) {
+			rev = rev + num1.charAt(i);
 		}
 		
 		System.out.println("Reverse of String using Loops is :: "+rev);
