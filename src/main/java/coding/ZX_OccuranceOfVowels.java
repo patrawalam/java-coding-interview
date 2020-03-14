@@ -34,7 +34,7 @@ public class ZX_OccuranceOfVowels {
 		map.put('o', Collections.frequency(cList, 'o'));
 		map.put('u', Collections.frequency(cList, 'u'));
 		
-		for (Map.Entry e : map.entrySet() ) {
+		for (Map.Entry<Character, Integer> e : map.entrySet() ) {
 			System.out.println(e.getKey() + " --- " + e.getValue());
 		}
 	}
