@@ -15,13 +15,13 @@ public class ZX_WriteCodeToFilterDuplicateElementsFromAnArrayAndPrintAsAList {
 		HashSet<Integer> hs = new HashSet<Integer>();
 		for (int i: testArray)
 			hs.add(i);
-		System.out.println(hs);
+		//System.out.println(hs);
 		
 		List<Integer> cList = new ArrayList<Integer>();
 		for(int c : testArray) {
 		    cList.add(c);
 		}
-		System.out.println(cList);
+		//System.out.println(cList);
 		
 		HashSet<Integer> repeatingElement = new HashSet<Integer>();
 		HashSet<Integer> nonRepeatingElement = new HashSet<Integer>();
