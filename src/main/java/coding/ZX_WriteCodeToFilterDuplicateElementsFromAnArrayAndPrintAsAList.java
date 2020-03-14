@@ -3,7 +3,7 @@ package coding;
 import java.util.Arrays;
 import java.util.List;
 
-public class X_WriteCodeToFilterDuplicateElementsFromAnArrayAndPrintAsAList {
+public class ZX_WriteCodeToFilterDuplicateElementsFromAnArrayAndPrintAsAList {
 	
 	public static void main(String[] args) {
 		
