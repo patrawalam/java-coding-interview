@@ -48,8 +48,10 @@ public class X008_DuplicateElementsInArray {
 		//3. Using ArrayList, HashSet, HashMap and Collections.frequency --- Fastest way
 		 long newstart = System. currentTimeMillis();
 		ArrayList<String> al = new ArrayList<String>();
-		for(String s: arr) 
-			al.add(s);
+		/*
+		 * for(String s: arr) al.add(s);
+		 */
+		Collections.addAll(al, arr);
 		
 		HashSet<String> newHS = new HashSet<String>();
 		for(String s: arr) 
