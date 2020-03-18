@@ -54,8 +54,10 @@ public class X008_DuplicateElementsInArray {
 		Collections.addAll(al, arr);
 		
 		HashSet<String> newHS = new HashSet<String>();
-		for(String s: arr) 
-			newHS.add(s);
+		/*
+		 * for(String s: arr) newHS.add(s);
+		 */
+		Collections.addAll(newHS, arr);
 		
 		HashMap <String, Integer> newHM = new HashMap <String, Integer>();
 		for (String s: newHS)
