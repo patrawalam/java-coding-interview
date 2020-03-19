@@ -21,6 +21,8 @@ public class X008_DuplicateElementsInArray {
 		
 		System.out.println("--------------------------------------------------------------");
 		
+		
+		
 		//2. Using HashMap to display elements as well as how many times did it occur extra
 		long start = System. currentTimeMillis();
 		HashMap<String, Integer> hm = new HashMap<String, Integer>();
@@ -45,6 +47,8 @@ public class X008_DuplicateElementsInArray {
 		System.out.println(start + " :: " + end + " :: " + (end-start));
 		System.out.println("--------------------------------------------------------------");
 		
+		
+		
 		//3. Using ArrayList, HashSet, HashMap and Collections.frequency --- Fastest way
 		 long newstart = System. currentTimeMillis();
 		ArrayList<String> al = new ArrayList<String>();
@@ -64,9 +68,9 @@ public class X008_DuplicateElementsInArray {
 			newHM.put(s, Collections.frequency(al, s));
 		System.out.println("HashMap :: "+ newHM);
 		
-		for (Map.Entry<String, Integer> e: newHM.entrySet()) {
-			if (e.getValue() > 1)
-				System.out.println("The element \"" + e.getKey() + "\" is occuring \'" + (e.getValue() - 1) + "\' times extra");
+		for (Map.Entry<String, Integer> es: newHM.entrySet()) {
+			if (es.getValue() > 1)
+				System.out.println("The element \"" + es.getKey() + "\" is occuring \'" + (es.getValue() - 1) + "\' times extra");
 		}
 		 long newend = System. currentTimeMillis();
 		 System.out.println(newstart + " :: " + newend + " :: " + (newend-newstart));
