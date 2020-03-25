@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class ZX_OccuranceOfVowels {
+public class X011_OccuranceOfVowels {
 	
 
 	public static void main(String[] args) throws IOException {

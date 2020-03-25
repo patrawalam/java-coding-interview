@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 
-public class ZX_WriteCodeToFilterDuplicateElementsFromAnArrayAndPrintAsAList {
+public class X012_WriteCodeToFilterDuplicateElementsFromAnArrayAndPrintAsAList {
 	
 	public static void main(String[] args) {
 		
