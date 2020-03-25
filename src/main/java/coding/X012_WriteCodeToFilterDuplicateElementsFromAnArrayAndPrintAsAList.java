@@ -1,6 +1,7 @@
 package coding;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
@@ -31,6 +32,8 @@ public class X012_WriteCodeToFilterDuplicateElementsFromAnArrayAndPrintAsAList {
 			else
 				nonRepeatingElement.add(i);
 		}
+		System.out.println("Array" + Arrays.toString(testArray));
+		System.out.println();
 		System.out.println("Repeating elements in a Array :: "+repeatingElement);
 		System.out.println("Non repeating elements in a Array :: "+nonRepeatingElement);
 	}
