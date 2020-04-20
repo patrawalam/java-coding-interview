@@ -2,14 +2,10 @@ package javaprograms;
 
 import java.io.IOException;
 
-import java.nio.file.Files;
-import java.nio.file.Paths;
-
 public class X010_StringFormat_FirstCapitalFollowedBySmall {
 
 	public static void main(String[] args) throws IOException {
 
-	//System.out.println(new String (Files.readAllBytes(Paths.get(System.getProperty("user.dir")+"//src//test//resources//addBookStaticJSON.json"))));
 		String returnString = "";
 	      String s = "NyffsG";
 	      String[] splittedStr = s.split("");
