@@ -1,4 +1,4 @@
-package java;
+package javaprograms;
 
 public class X010_StringFormat_SeriesOfBraces {
 
